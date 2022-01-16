@@ -13,7 +13,7 @@ const game_name = "Shadow_of_Chernobyl"; // Rename As per Game
 const app = express(); 
 
 // Settings
-const log_pagination_refresh_seconds_duration = 360; // 6 minutes
+const log_pagination_refresh_seconds_duration = 60 * 10; // 10 minutes
 
 app.get('/', async (req, res) => {
     console.log(">>>>Started Main");
